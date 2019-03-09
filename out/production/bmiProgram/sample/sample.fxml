@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="45.0" layoutY="72.0" text="Podaj wzrsost" textFill="#eb074b" />
+      <Label layoutX="45.0" layoutY="117.0" text="Podaj Wage" textFill="#f505b9" />
+      <TextField fx:id="weightField" layoutX="144.0" layoutY="112.0" />
+      <TextField fx:id="heightField" layoutX="144.0" layoutY="67.0" />
+      <Button layoutX="144.0" layoutY="156.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="167.0" text="Wygeneruj bmi" />
+      <Label fx:id="scoreLabel" layoutX="144.0" layoutY="209.0" prefHeight="36.0" prefWidth="183.0" text="Wynik BMI">
+         <font>
+            <Font name="Arial Hebrew Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
